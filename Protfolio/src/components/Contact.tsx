@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import type { ReactNode } from 'react'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa6'
+import { FaGithub, FaLinkedinIn, FaResearchgate } from 'react-icons/fa6'
 import { contactInfo } from '../data/data'
 import { SectionShell } from './SectionShell'
 
