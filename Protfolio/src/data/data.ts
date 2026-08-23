@@ -66,18 +66,18 @@ export const siteConfig = {
   name: 'Silvia Sifath',
   initials: 'SS',
   profileImage: '/silvia.jpg',
-  cvPath: '/silvia_CV.pdf',
+  cvPath: '/CV_version1.pdf',
 
   roles: [
-    'Lecturer at Trust University',
+    'Lecturer in Computer Science & Engineering',
     'AI & Machine Learning Researcher',
-    'Computer Science & Engineering Graduate',
+    'Intelligent Systems Researcher',
     'Aspiring PhD Researcher',
-    'Research Enthusiast',
+    'Academic Mentor',
   ],
 
   professionalSummary:
-    'Lecturer at Trust University, Barishal, and Computer Science and Engineering graduate from the University of Barishal, Bangladesh. Completed B.Sc. in Computer Science and Engineering with a CGPA of 3.88/4.00 and M.Sc. in Computer Science and Engineering with a CGPA of 3.96/4.00, both achieving First Class. My research interests include Artificial Intelligence, Deep Learning, Machine Learning, Agent-based Modelling, Bioinformatics, Fuzzy Expert Systems, Natural Language Processing, and healthcare-related intelligent systems. I have experience in university teaching, academic mentoring, and multidisciplinary research, with publications and research contributions in medical and agricultural AI, NLP, fuzzy systems, healthcare analytics, and machine learning.',
+    'Computer Science and Engineering academician and researcher specializing in Artificial Intelligence and intelligent systems, with experience in university teaching, academic mentoring, and interdisciplinary research. Contributing to teaching excellence, student development, and research initiatives through innovative academic practices. My work focuses on designing AI-driven solutions for real-world challenges, particularly in healthcare, agriculture, natural language processing, and data-driven decision-making. Passionate about bridging research and practical applications through innovative technologies and collaborative academic contributions.',
 
   researchInterests: [
     'Artificial Intelligence',
@@ -121,13 +121,13 @@ export const educationItems: EducationItem[] = [
     degree: 'M.Sc. in Computer Science and Engineering',
     institution: 'University of Barishal, Bangladesh',
     duration: 'June 2023 – May 2026',
-    result: 'CGPA: 3.96 / 4.00 — First Class',
+    result: 'CGPA: 3.96(1st) / 4.00',
   },
   {
     degree: 'B.Sc. in Computer Science and Engineering',
     institution: 'University of Barishal, Bangladesh',
     duration: 'January 2017 – March 2023',
-    result: 'CGPA: 3.88 / 4.00 — First Class',
+    result: 'CGPA: 3.88(1st) / 4.00',
   },
   {
     degree: 'Higher Secondary Certificate (HSC), Science',
