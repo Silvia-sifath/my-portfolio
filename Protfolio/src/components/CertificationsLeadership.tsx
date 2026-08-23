@@ -7,8 +7,8 @@ export function CertificationsLeadership() {
   return (
     <SectionShell
       id="certifications"
-      title="Certifications & Leadership"
-      subtitle="Professional development and leadership responsibilities."
+      title="Certifications & Academic Leadership"
+      subtitle="Professional development and responsibilities."
     >
       <div className="grid gap-4 md:grid-cols-3">
         {certificationsLeadershipItems.map((item, index) => (
