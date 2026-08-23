@@ -92,6 +92,15 @@ export function Contact() {
               >
                 <FaGithub size={16} />
               </a>
+              <a
+                href={contactInfo.researchgate}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-[var(--color-border)] p-3 text-[var(--color-text)] transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+                aria-label="ResearchGate"
+              >
+                <FaResearchgate size={16} />
+              </a>
             </div>
           </div>
         </motion.aside>
