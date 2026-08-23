@@ -384,7 +384,7 @@ export const projectItems: ProjectItem[] = [
       'MySQL',
       'Database',
     ],
-    github: 'https://github.com/Silvia-sifath/project_scientific',
+    github: 'https://github.com/Silvia-sifath/Scientific_Introduction',
   },
 ]
 
