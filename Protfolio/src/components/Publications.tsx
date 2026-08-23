@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { ExternalLink } from 'lucide-react'
 import { publicationItems } from '../data/data'
 import { SectionShell } from './SectionShell'
 
@@ -20,12 +21,19 @@ export function Publications() {
             className="rounded-2xl border border-[var(--color-border)] bg-[var(--surface)] p-6 shadow-sm"
           >
             <div className="mb-4 flex items-center justify-between gap-3">
-              <h3 className="text-xl font-semibold text-[var(--color-heading)]">{publication.title}</h3>
+              <h3 className="text-xl font-semibold text-[var(--color-heading)]">
+                {publication.title}
+              </h3>
+
               <span className="rounded-full border border-[var(--chip-border)] bg-[var(--chip-bg)] px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-[var(--chip-text)]">
                 Published
               </span>
             </div>
-            <p className="mt-3 text-sm leading-7 text-[var(--color-text)]">{publication.type}</p>
+
+            <p className="mt-3 text-sm leading-7 text-[var(--color-text)]">
+              {publication.type}
+            </p>
+
             <div className="mt-5 flex flex-wrap gap-2">
               {publication.tags.map((tag) => (
                 <span
@@ -36,6 +44,20 @@ export function Publications() {
                 </span>
               ))}
             </div>
+
+            {publication.doi && (
+              <div className="mt-6">
+                <a
+                  href={publication.doi}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-primary)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--button-primary-hover)]"
+                >
+                  <ExternalLink size={15} />
+                  View Paper
+                </a>
+              </div>
+            )}
           </motion.article>
         ))}
       </div>
