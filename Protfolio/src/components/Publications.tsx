@@ -7,7 +7,7 @@ export function Publications() {
     <SectionShell
       id="publications"
       title="Publications"
-      subtitle="Research contributions in medical imaging and Explainable AI."
+      subtitle="Research Contributions in AI-Driven Healthcare, Agriculture, and Intelligent Applications"
     >
       <div className="grid gap-6">
         {publicationItems.map((publication, index) => (
