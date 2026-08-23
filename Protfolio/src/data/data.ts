@@ -272,7 +272,7 @@ export const publicationItems: PublicationItem[] = [
   {
     title:
       'CSWFE: A Class-Specific Weighted Feature Engineering Framework for Mpox Skin Lesion Classification Using Explainable AI',
-    type: '(Undergraduate Thesis) — Accepted in 4th International Conference on Computing Advancements (ICCA 2026)',
+    type: 'Accepted — Accepted in 4th International Conference on Computing Advancements (ICCA 2026)',
     tags: ['Explainable AI', 'Medical Imaging'],
   },
   {
