@@ -269,7 +269,12 @@ export const publicationItems: PublicationItem[] = [
       'Submitted — International Journal of Artificial Intelligence in Education, Springer, February 2026',
     tags: ['Fuzzy Agent', 'AI in Education', 'Student Modeling'],
   },
-
+  {
+    title:
+      'CSWFE: A Class-Specific Weighted Feature Engineering Framework for Mpox Skin Lesion Classification Using Explainable AI',
+    type: '(Undergraduate Thesis) — Accepted in 4th International Conference on Computing Advancements (ICCA 2026)',
+    tags: ['Explainable AI', 'Medical Imaging'],
+  },
   {
     title:
       'Regional Language Classification in Bangladesh Using NLP and Machine Learning Techniques',
@@ -353,6 +358,7 @@ export const projectItems: ProjectItem[] = [
       'Deep Learning',
       'Data Analysis',
     ],
+    github: 'https://github.com/Silvia-sifath/Brain_tumor',
   },
 
   {
@@ -366,8 +372,8 @@ export const projectItems: ProjectItem[] = [
       'Web Development',
       'C2C E-commerce',
     ],
+    github: 'https://github.com/Silvia-sifath/project_supershop',
   },
-
   {
     title: 'Scientific Introduction',
     description:
@@ -378,6 +384,7 @@ export const projectItems: ProjectItem[] = [
       'MySQL',
       'Database',
     ],
+    github: 'https://github.com/Silvia-sifath/project_scientific',
   },
 ]
 
@@ -548,6 +555,16 @@ export const certificationsLeadershipItems: CertificationLeadershipItem[] = [
     title: 'ICT Fellowship',
     details:
       'Fellowship for Master’s Thesis — November 2024 to November 2025',
+  },
+  {
+    title: "Class Representative — M.Sc. in Computer Science and Engineering",
+    details:
+      "Served as the Class Representative, coordinating academic communication between students and faculty members and supporting departmental activities.",
+  },
+  {
+    title: "Class Representative — B.Sc. in Computer Science and Engineering",
+    details:
+      "Served as the Class Representative, facilitating communication, organizing academic activities, and representing student concerns.",
   },
 ]
 
