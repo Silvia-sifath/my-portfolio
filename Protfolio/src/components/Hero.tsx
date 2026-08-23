@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Mail } from 'lucide-react'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa6'
+import { FaGithub, FaLinkedinIn, FaResearchgate } from 'react-icons/fa6'
 import { useEffect, useState } from 'react'
 import { contactInfo, siteConfig } from '../data/data'
 
@@ -99,6 +99,15 @@ export function Hero() {
               aria-label="Email"
             >
               <Mail size={18} />
+            </a>
+            <a
+              href={contactInfo.researchgate}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-[var(--color-border)] p-3 text-[var(--color-text)] transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
+              aria-label="ResearchGate"
+            >
+              <FaResearchgate size={16} />
             </a>
           </div>
         </motion.div>
