@@ -167,11 +167,11 @@ export function About() {
                 </p>
 
                 <p className="mt-1 text-sm font-semibold text-[var(--color-heading)]">
-                  M.Sc. CGPA 3.96 / 4.00
+                  M.Sc. CGPA 3.96 (1st)/ 4.00
                 </p>
 
                 <p className="mt-1 text-xs text-[var(--color-text)]">
-                  B.Sc. CGPA 3.88 / 4.00 · First Class
+                  B.Sc. CGPA 3.88 (1st) / 4.00 
                 </p>
               </div>
             </div>
