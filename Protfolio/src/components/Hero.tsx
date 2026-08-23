@@ -118,7 +118,7 @@ export function Hero() {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
           className="mx-auto"
         >
-          <div className="relative flex h-64 w-64 items-center justify-center rounded-full border border-[var(--color-border)] bg-[linear-gradient(145deg,var(--surface-strong),var(--surface))] shadow-[0_20px_60px_rgba(20,34,57,0.2)]">
+          <div className="relative flex h-64 w-64 sm:h-72 sm:w-72 lg:h-80 lg:w-80 items-center justify-center rounded-full border border-[var(--color-border)] bg-[linear-gradient(145deg,var(--surface-strong),var(--surface))] shadow-[0_20px_60px_rgba(20,34,57,0.2)]">
             {siteConfig.profileImage ? (
               <img
                 src={siteConfig.profileImage}
