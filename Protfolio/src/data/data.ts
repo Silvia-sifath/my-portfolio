@@ -77,7 +77,7 @@ export const siteConfig = {
   ],
 
   professionalSummary:
-    'Computer Science and Engineering academician and researcher specializing in Artificial Intelligence and intelligent systems, with experience in university teaching, academic mentoring, and interdisciplinary research. Contributing to teaching excellence, student development, and research initiatives through innovative academic practices. My work focuses on designing AI-driven solutions for real-world challenges, particularly in healthcare, agriculture, natural language processing, and data-driven decision-making. Passionate about bridging research and practical applications through innovative technologies and collaborative academic contributions.',
+    'Computer Science and Engineering academician and researcher specializing in Artificial Intelligence, intelligent systems, and data-driven technologies. Experienced in university teaching, academic mentoring, and interdisciplinary research, with a strong commitment to teaching excellence and student development. Research interests include AI-driven solutions for healthcare, agriculture, Natural Language Processing, and intelligent decision-making. Dedicated to translating research into practical applications through innovative technologies, interdisciplinary collaboration, and problem-oriented research.',
 
   researchInterests: [
     'Artificial Intelligence',
