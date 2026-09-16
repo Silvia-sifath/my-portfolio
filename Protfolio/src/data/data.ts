@@ -171,7 +171,7 @@ export const experienceItems: ExperienceItem[] = [
     role: 'Research Fellow',
     organization:
       'ICT Division, Government of Bangladesh — University of Barishal',
-    duration: 'November 2024 – November 2025',
+    duration: '2024 – 2025',
     supervisor: 'Assoc. Prof. Dr. Md. Manjur Ahmed',
     bullets: [
       'Conducted research under the ICT Fellowship program associated with the Master’s thesis.',
