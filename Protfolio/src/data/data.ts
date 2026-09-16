@@ -171,7 +171,7 @@ export const experienceItems: ExperienceItem[] = [
     role: 'Research Fellow',
     organization:
       'ICT Division, Government of Bangladesh — University of Barishal',
-    duration: '2024 – 2025',
+    duration: '',
     supervisor: 'Assoc. Prof. Dr. Md. Manjur Ahmed',
     bullets: [
       'Conducted research under the ICT Fellowship program associated with the Master’s thesis.',
@@ -492,7 +492,7 @@ export const achievementItems: AchievementItem[] = [
   {
     label: 'ICT Fellowship',
     value:
-      'ICT Fellowship for Master’s Thesis — 2024 to 2025',
+      'ICT Fellowship for Master’s Thesis — 2024',
   },
 
   {
