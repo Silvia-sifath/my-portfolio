@@ -550,12 +550,6 @@ export const certificationsLeadershipItems: CertificationLeadershipItem[] = [
     details:
       'Participating Member; project selected from 303 teams and presented at the Harvard Hackathon — April 2025',
   },
-
-  {
-    title: 'ICT Fellowship',
-    details:
-      'Fellowship for Master’s Thesis — November 2024 to November 2025',
-  },
   {
     title: "Class Representative — M.Sc. in Computer Science and Engineering",
     details:
