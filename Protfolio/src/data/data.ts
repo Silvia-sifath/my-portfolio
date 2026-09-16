@@ -492,7 +492,7 @@ export const achievementItems: AchievementItem[] = [
   {
     label: 'ICT Fellowship',
     value:
-      'ICT Fellowship for Master’s Thesis — November 2024 to November 2025',
+      'ICT Fellowship for Master’s Thesis — 2024 to 2025',
   },
 
   {
